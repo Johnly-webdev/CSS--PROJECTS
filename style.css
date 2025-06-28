@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+/* Open Sans sans-serif */
+
+body, html {
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #ebeae9;
+    margin: 1rem;
+}
+
+html{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Nav Start */
+
+.wrapper-container{
+    border-radius: 10px;
+    border: 2px solid black;
+    /* margin: auto; */
+    height: 90px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 5rem;
+}
+
+nav ul{
+    margin-left: 5rem;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font: bold;
+    font-size: 2rem;
+    /* padding: 10px; */
+}
+
+nav .burger{
+    margin-right: 5rem;
+    cursor: pointer;
+}
+
+nav .burger span{
+    height: 4px;
+    border: 2px solid black;
+    margin: 4px;
+    background: #000; 
+}
+
+/* Nav Ends */
+
+/* Header starts! */
+header{
+    margin: 6rem;
+}
+
+.main-headings{
+    width: 50%;
+    font-size: 3rem;
+}
+
+.primary-headings{
+    width: 50%;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.bg-gray{
+    background-color: rgb(97, 97, 97);
+    color: white;
+    padding: 2px 10px;
+    font-weight: bold;
+}
+
+/* header Ends */
+
+/* Main starts */
+
+main{
+    margin: 0 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+
+}
+
+main .img{
+    width: 40%;
+    margin: 10px;
+}
+
+/* section three starts */
+
+.section-three{
+    margin-left: 5rem;
+    text-align: center;
+
+}
+
+.headings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    /* height: auto; */
+}
+
+
+.section-three .primary-headings {
+    margin-bottom: 5rem;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-three .item h1{
+    font-size: 2rem;
+    color: rgb(97, 97, 97);
+    /* text-align: center; */
+}
+
+.section-three img {
+    width: 400px;
+    /* max-width: 400px; */
+    /* height: auto; */
+    height: 500px;
+    margin: 10px 10px 10px 10px;
+}
+
+/* SECTION THREE ENDS! */
+
+
+
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.logo-container h1{
+    margin-bottom: 10px;
+    
+}
+
+.logo-container p{
+    width: 600px;
+}
+
+.about-company{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    margin-left: 30px;
+}
